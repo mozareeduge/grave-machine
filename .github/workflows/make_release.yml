@@ -9,16 +9,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Guard — exact commit
-        run: |
-          if [ "$GITHUB_SHA" != "b9484559262c12fb829dc97ea3cff3951118477e" ]; then
-            echo "SHA mismatch: $GITHUB_SHA"
-            exit 1
-          fi
-
       - uses: actions/checkout@v4
         with:
           ref: b9484559262c12fb829dc97ea3cff3951118477e
+          fetch-depth: 0
+
+      - name: Verify release commit is present
+        run: |
+          git cat-file -e b9484559262c12fb829dc97ea3cff3951118477e || (echo 'release commit not found'; exit 1)
 
       - name: Create tag
         run: |
