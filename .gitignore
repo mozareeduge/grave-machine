@@ -1,0 +1,8 @@
+*.xlsx
+*.taroke.json
+*.zip
+*Diagnostic*
+*diagnostic*
+.DS_Store
+__pycache__/
+.pytest_cache/

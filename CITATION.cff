@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you cite this work, please use the metadata below."
+title: "Grave-Machine: An Iranian Remix of Taroko Gorge"
+abstract: >
+  A bilingual generative electronic poem by Mozare, grounded in Mohammad Zare's
+  play Grave and situated in the remix lineage of Nick Montfort's Taroko Gorge.
+  English and Persian versions share a single browser runtime while retaining
+  distinct authored materials, grammatical devices, and language direction.
+authors:
+  - family-names: Zare
+    given-names: Mohammad
+    alias: Mozare
+type: software
+version: "1.1.0"
+date-released: 2026-07-15
+url: "https://theblackbirdfield.com/works/grave-machine/run/"
+repository-code: "https://github.com/mozareeduge/grave-machine"
+license-url: "https://github.com/mozareeduge/grave-machine/blob/main/RIGHTS.md"
+keywords:
+  - electronic literature
+  - digital poetry
+  - generative poetry
+  - Persian
+  - bilingual literature
+  - Taroko Gorge remix
+  - born-digital artwork
