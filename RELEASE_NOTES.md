@@ -1,3 +1,23 @@
+# Grave-Machine v1.1.1
+
+This release adds the approved animated favicon to the public bilingual runtime. No poem text, generation logic, or layout changes.
+
+## Canonical work
+
+https://theblackbirdfield.com/works/grave-machine/run/
+
+## Release artifact
+
+`index.html`
+
+SHA-256:
+
+`a4fe16dc4858cb7aee98a4fde77b7dc0e7321e6e5388f675973de609103c16ee`
+
+The release contains the public runtime and public documentation only. Private editable projects, workbook, diagnostics, and working-package files are excluded.
+
+---
+
 # Grave-Machine v1.1.0
 
 This release establishes the public source archive for the approved bilingual v1.1 runtime already presented through The Black Bird Field.
