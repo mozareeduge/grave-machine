@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Public-release invariant gate for Grave-Machine v1.1.0."""
+"""Public-release invariant gate for Grave-Machine v1.1.1."""
 
 from pathlib import Path
 import hashlib
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED = "0e1cfd0097cf261f169c0e52a88d39f1541f04f07d179b1f009ff2cc311eb385"
+EXPECTED = "a4fe16dc4858cb7aee98a4fde77b7dc0e7321e6e5388f675973de609103c16ee"
 errors = []
 
 def fail(message):
@@ -52,7 +52,7 @@ if artifact.is_file():
 
 for rel, expected in [
     ("README.md", "https://theblackbirdfield.com/works/grave-machine/run/"),
-    ("CITATION.cff", 'version: "1.1.0"'),
+    ("CITATION.cff", 'version: "1.1.1"'),
     ("CITATION.cff", 'repository-code: "https://github.com/mozareeduge/grave-machine"'),
     ("SHA256SUMS", EXPECTED + "  index.html"),
 ]:
