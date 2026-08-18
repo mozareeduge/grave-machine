@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1 — 2026-08-18
+
+- Added the approved animated favicon (autostep SVG runtime, with static PNG/ICO fallbacks) to `index.html`.
+- No changes to poem text, generation logic, or layout. Runtime re-hashed; see SHA256SUMS.
+
 ## 1.1.0 — 2026-07-15
 
 Initial public source-archive release of the approved bilingual runtime.
