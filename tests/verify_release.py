@@ -20,6 +20,7 @@ required = [
     "index.html", "README.md", "CITATION.cff", "RIGHTS.md", "NOTICE.md",
     "CHANGELOG.md", "RELEASE_NOTES.md", "SHA256SUMS", "CLAUDE.md",
     "tests/verify_release.py", ".github/workflows/verify.yml",
+    "CNAME",
 ]
 for rel in required:
     if (ROOT / rel).is_file():
