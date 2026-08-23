@@ -2,8 +2,10 @@
 
 A bilingual generative e-poem by Mozare.
 
-**Live work:** https://theblackbirdfield.com/works/grave-machine/run/  
+**Live work:** https://theblackbirdfield.com/works/grave-machine/run/ (canonical)  
 **Portfolio entry:** https://theblackbirdfield.com/works/grave-machine/  
+**Subdomain mirror:** https://grave-machine.theblackbirdfield.com/  
+**GitHub Pages mirror:** https://mozareeduge.github.io/grave-machine/  
 **Release:** v1.1.1 — English / Persian
 
 ---
@@ -24,7 +26,7 @@ SHA-256:
 a4fe16dc4858cb7aee98a4fde77b7dc0e7321e6e5388f675973de609103c16ee
 ```
 
-The canonical live work remains inside The Black Bird Field portfolio. This repository is the public source archive and release record; GitHub Pages is intentionally not enabled here.
+The canonical live work remains inside The Black Bird Field portfolio. This repository is also the public source archive and release record, additionally published via GitHub Pages — at its default project URL and at the custom subdomain `grave-machine.theblackbirdfield.com` — so the same approved runtime is reachable from either address. The favicon is part of the approved v1.1.1 runtime (relative asset paths), so it renders identically regardless of which address serves it.
 
 ## Opening locally
 
