@@ -1,5 +1,17 @@
 # Grave-Machine
 
+**by Mohammad Zare (Mozare) · version 1.1.1 · [Experience the work](https://theblackbirdfield.com/works/grave-machine/run/)**
+
+*Grave-Machine* is a bilingual generative e-poem, in English and Persian. Material from the play *Grave* enters the *Taroko Gorge* remix lineage. Generated language remains beside a quieter runtime trace, keeping recurrence and construction in the same field.
+
+**Status:** published work, version 1.1.1; this repository is its public source archive and release record.
+
+**How to cite:** Zare, M. (2026). *Grave-Machine: An Iranian Remix of Taroko Gorge* (Version 1.1.1) [Electronic literature]. https://theblackbirdfield.com/works/grave-machine/run/
+
+**Rights:** All rights reserved; the source is visible for reading, study and citation only. See [RIGHTS.md](RIGHTS.md).
+
+---
+
 A bilingual generative e-poem by Mozare.
 
 **Live work:** https://theblackbirdfield.com/works/grave-machine/run/  
@@ -24,7 +36,7 @@ SHA-256:
 a4fe16dc4858cb7aee98a4fde77b7dc0e7321e6e5388f675973de609103c16ee
 ```
 
-The canonical live work remains inside The Black Bird Field portfolio. This repository is the public source archive and release record; GitHub Pages is intentionally not enabled here.
+The canonical reading address is https://theblackbirdfield.com/works/grave-machine/run/, inside The Black Bird Field portfolio. This repository is the public source archive and release record; GitHub Pages is enabled for it with the custom domain grave-machine.theblackbirdfield.com.
 
 ## Opening locally
 

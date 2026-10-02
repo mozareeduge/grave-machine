@@ -9,6 +9,7 @@ abstract: >
 authors:
   - family-names: Zare
     given-names: Mohammad
+    orcid: "https://orcid.org/0009-0002-9032-3614"
     alias: Mozare
 type: software
 version: "1.1.1"
