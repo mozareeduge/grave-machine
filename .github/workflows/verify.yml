@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   verify:
     runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
